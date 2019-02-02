@@ -1,0 +1,161 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+.light-background {
+  background-color: #e2edbf;
+}
+
+p {
+  font-size: 18px;
+}
+
+a.btn.btn__main-color {
+  background-color: #b5d455;
+  color:black;
+}
+
+a.btn.btn__main-color:hover {
+  background-color: black;
+  color: #b5d455;
+  transform: scale(1.1);
+}
+
+.navbar {
+  background-color: #e2edbf;
+  border-bottom: #b5d455 3px solid;
+}
+
+#showcase{
+  background-image: url(img/main.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width:100%;
+  }
+
+#showcase2{
+  background-image: url(img/book.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width:100%;
+}
+
+#showcase3{
+  background-image: url(img/contacto.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width:100%;
+}
+
+#showcase__blog{
+  background-image: url(img/bible.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width:100%;
+  margin-top: -29px;
+  }
+
+.blog__text {
+  text-align: center;
+  background-color: #dfdfdfad;
+  position: absolute;
+  width: 80%;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.showcase{
+  margin:-5px;
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: right;
+  font-size:3.2rem;
+  color: #b5d455;
+}
+
+
+
+
+.showcase2{
+  margin:-5px;
+  padding-top: 10px;
+  text-align: center;
+  font-size:3.2rem;
+  color: #b5d455; 
+}
+
+#main-info{
+  margin-bottom: 25px;
+}
+
+.blog__welcome {
+  padding-bottom: 75px;
+  padding-top: 50px;
+}
+
+.contact__info {
+  color: black;
+}
+
+.fab {
+  color: black;
+}
+
+.brand-logo{
+  font-family: 'Dancing Script', cursive;
+  }
+
+img#quote{
+  display: block;
+  height: auto;
+  width: 50%;
+  padding-bottom: 25px;
+  margin: auto;
+}
+
+.quote {
+  background: #e2edbf;
+  color:black;
+  font-style: italic;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+h5.image__quote-text{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#apoyanos{
+  text-align: center;
+}
+
+#contacto{
+  font-size:1.5rem;
+  display:block;
+  color:black;
+}
+
+li, a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer.page-footer {
+  background-color: #b5d455;
+}
+
+.footer-copyright {
+  text-align: center;
+}
